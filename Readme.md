@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Андрей П](https://up.htmlacademy.ru/htmlcss/35/user/2220231).
-* Наставник: `Неизвестно`.
+* Студент: [Андрей Пак](https://up.htmlacademy.ru/htmlcss/35/user/2220231).
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
