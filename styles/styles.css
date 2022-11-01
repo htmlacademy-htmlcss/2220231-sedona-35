@@ -260,14 +260,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.welcome-page::after {
+.welcome-page:after {
   position: absolute;
   content: "";
   bottom: 0;
   background-image: url(../images/divider.svg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 57px;
+  height: 55px;
   left: 0;
   right: 0;
   background-size:cover;
@@ -324,6 +324,7 @@ body {
   text-align: center;
   color: #ffffff;
   list-style-type: none;
+
 }
 
 .advantages-item {
@@ -348,8 +349,8 @@ body {
 }
 
 .advantages-description {
-  margin-bottom: 0;
-  margin-top: 30px;
+  margin-bottom: 118px;
+  margin-top: 0px;
 }
 
 .color-dark {
@@ -364,6 +365,7 @@ body {
 .advantages-item-image {
   flex-grow: 2;
 }
+
 
 /*Блог сервиса*/
 
@@ -1297,7 +1299,9 @@ body {
   list-style-type: none;
   padding: 0;
   align-items: flex-start;
+
 }
+
 
 .product-card-item {
   display: flex;
@@ -1307,12 +1311,16 @@ body {
   padding: 20px;
   margin-top: 0;
   margin-left: 0;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
 }
+
 
 .product-card-hotel {
   display: block;
   margin-bottom: 16px;
   line-height: 0;
+
 }
 
 .product-card-image {
@@ -1458,7 +1466,7 @@ body {
   border: none;
   font-family: inherit;
   min-height: 37px;
-  min-width: 160px;
+  min-width: 141px;
   border-radius: 4px;
   line-height: 21px;
   font-weight: 400;
@@ -1491,14 +1499,6 @@ body {
   background-color: #e6e6e6;
 }
 
-.download-block::after {
-  position: absolute;
-  width: 1055px;
-  height: 1px;
-  content: "";
-  bottom: 0;
-  background-color: #e6e6e6;
-}
 
 .download-block {
   position: relative;
@@ -1685,8 +1685,9 @@ body {
   background-color: #e6e6e6;
 }
 
+
 /*Модальное окно*/
-.modal-container {
+.modal-container{
   position: fixed;
   z-index: 100;
   top: 0;
@@ -1748,7 +1749,7 @@ body {
   background-color: #e6e6e6;
 }
 
-.modal-close-button:active .close-image {
+.modal-close-button:active.close-image {
   opacity: 0.3;
   outline: none;
 }
