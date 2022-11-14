@@ -70,11 +70,15 @@
                 </li>
                 <li class="catalog-filter-items">
                   <label class="infrastructure">
-                    <input class="visually-hidden infrastructure-input" type="checkbox" name="infrastructure[]" value="parking" checked> <span class="infrastructure-mark"></span> Парковка </label>
+                    <input class="visually-hidden infrastructure-input" type="checkbox" name="infrastructure[]" value="parking" checked>
+                    <span class="infrastructure-mark"></span> Парковка
+                  </label>
                 </li>
                 <li class="catalog-filter-items">
                   <label class="infrastructure">
-                    <input class="visually-hidden infrastructure-input" type="checkbox" name="infrastructure[]" value="wifi"> <span class="infrastructure-mark"></span> Wi-Fi </label>
+                    <input class="visually-hidden infrastructure-input" type="checkbox" name="infrastructure[]" value="wifi">
+                    <span class="infrastructure-mark"></span> Wi-Fi
+                  </label>
                 </li>
               </ul>
             </fieldset>
@@ -83,15 +87,21 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-items">
                   <label class="type-home">
-                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="hotel" checked> <span class="type-home-mark"></span> Гостиница </label>
+                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="hotel" checked>
+                    <span class="type-home-mark"></span> Гостиница
+                  </label>
                 </li>
                 <li class="catalog-filter-items">
                   <label class="type-home">
-                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="motel"> <span class="type-home-mark"></span> Мотель </label>
+                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="motel">
+                    <span class="type-home-mark"></span> Мотель
+                  </label>
                 </li>
                 <li class="catalog-filter-items">
                   <label class="type-home">
-                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="apartaments"> <span class="type-home-mark"></span> Апартаменты </label>
+                    <input class="visually-hidden type-home-input" type="radio" name="type-home" value="apartaments">
+                    <span class="type-home-mark"></span> Апартаменты
+                  </label>
                 </li>
               </ul>
             </fieldset>
@@ -106,15 +116,17 @@
                   <label class="catalog-filter-label-max">
                     <input class="range-input range-input-max" type="number" value="9000" name="max-price"> </label>
                 </div>
+                 <!--ползунок-->
                 <div class="range-scale">
-                  <!--ползунок-->
+                  <!--выбранный ползунок-->
                   <div class="range-bar" style="right:60px; width:227px;">
-                    <!--выбранный ползунок-->
+                     <!--кнопка минимум-->
                     <button type="button" class="button-toggle toggle-min">
-                      <!--кнопка минимум--><span class="visually-hidden">Изменить минимальную цену</span>
+                      <span class="visually-hidden">Изменить минимальную цену</span>
                     </button>
+                    <!--кнопка максимум-->
                     <button type="button" class="button-toggle toggle-max">
-                      <!--кнопка максимум--><span class="visually-hidden">Изменить максимальную цену</span>
+                      <span class="visually-hidden">Изменить максимальную цену</span>
                     </button>
                   </div>
                 </div>
@@ -230,8 +242,7 @@
       <p class="info-email-description-catalog">Только полезная информация и никакого спама <br>честное бойскаутское!</p>
       <form class="new-form" action="http://echo.htmlacademy.ru/" method="post">
         <label for="email"> <span class="visually-hidden">Введите e-mail</span> </label>
-        <input class="field field-catalog" type="email" id="email" placeholder="Ваш e-mail" name="new-email"
-        required>
+        <input class="field field-catalog" type="email" id="email" placeholder="Ваш e-mail" name="new-email" required>
         <button class="button-email" type="submit"> Подписаться</button>
       </form>
     </section>

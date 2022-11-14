@@ -464,10 +464,10 @@ body {
 .button-hotel {
   display: block;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   margin-left: 376px;
   margin-right: 376px;
-  margin-top: 56px;
+  margin-top: 52px;
   box-sizing: border-box;
   height: 52px;
   font-size: 20px;
@@ -531,7 +531,8 @@ body {
 }
 
 .field {
-  min-width: 452px;
+  width: 452px;
+  height: 52px;
   border-radius: 4px 0 0 4px;
   border: 3px transparent;
   font-family: "PT Sans";
@@ -558,7 +559,8 @@ body {
 }
 
 .button-email {
-  min-width: 232px;
+  width: 232px;
+  height: 52px;
   border-radius: 0 4px 4px 0;
   border: 3px transparent;
   background: #83b3d3;
@@ -1162,13 +1164,12 @@ body {
 }
 
 .delete {
-  width: 76px;
-  min-height: 23px;
   font-size: 16px;
   font-weight: 700;
   line-height: 50px;
   font-family: "PT Sans";
-  margin-left: 55px;
+  margin: auto;
+  padding-bottom: 15px;
   text-decoration: none;
   color: #ffffff;
   border: none;
@@ -1268,7 +1269,7 @@ body {
 
 .button-mode-active {
   border-radius: 4px;
-  border: 2px solid #e5e5e5;
+  border: 2px solid #83b3d3;
   outline: none;
 }
 
@@ -1314,7 +1315,7 @@ body {
   padding: 20px;
   margin-top: 5px;
   margin-left: -4px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e6e6E6;
   border-radius: 4px;
 }
 
@@ -1572,20 +1573,23 @@ body {
 .button-pagination-link {
   display: block;
   box-sizing: border-box;
-  min-width: 55px;
-  min-height: 55px;
+  width: 60px;
+  height: 60px;
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
+  text-align: center;
   color: #ffffff;
   text-decoration: none;
   padding-top: 13px;
 }
 
 .pagination-spacing {
-  min-width: 55px;
+  width: 60px;
+  height: 60px;
   background-color: #ee111100;
-  text-align: center;
+  margin-top: 45px;
+
 
 }
 
