@@ -1583,7 +1583,7 @@ body {
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-  padding-top: 13px;
+  padding-top: 16px;
 }
 
 .pagination-spacing {
@@ -1591,6 +1591,7 @@ body {
   height: 60px;
   background-color: #ee111100;
   margin-top: 45px;
+  margin-right: 8px;
 
 
 }
