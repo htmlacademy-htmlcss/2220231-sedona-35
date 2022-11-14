@@ -1037,10 +1037,10 @@ body {
   padding-bottom: 11px;
   padding-left: 19px;
   padding-right: 19px;
-
-
+  border-style: solid;
+ background: #F2F2F2;
   margin-top: 25px;
-  color: #000000;
+  color: #F2F2F2;
   font-family: "PT Sans";
   font-size: 18px;
   font-weight: 700;
