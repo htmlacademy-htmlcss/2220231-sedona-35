@@ -533,6 +533,7 @@ body {
 .field {
   width: 452px;
   height: 52px;
+  margin-left: 2px;
   border-radius: 4px 0 0 4px;
   border: 3px transparent;
   font-family: "PT Sans";
@@ -561,6 +562,7 @@ body {
 .button-email {
   width: 232px;
   height: 52px;
+  margin-right: 2px;
   border-radius: 0 4px 4px 0;
   border: 3px transparent;
   background: #83b3d3;
