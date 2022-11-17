@@ -826,7 +826,7 @@ body {
   text-align: center;
 }
 .background-catalog {
-
+  background-image: url("../images/catalog-background.jpg");
   background-color: #6c5c54;
   background-size: auto;
   position: inherit;
