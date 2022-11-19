@@ -29,7 +29,6 @@ body {
   line-height: 21px;
   color: #242424;
   width: 1200px;
-  height: 3308px;
   margin: 0 auto;
   background-color: #f2f2f2;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -649,10 +648,10 @@ body {
 /*Стили для подвала*/
 .page-footer {
   box-sizing: border-box;
-  height: 120px;
   background-color: #ffffff;
+  background-size: cover;
   width: 1200px;
-  padding: 43px 48px 25px 61px;
+  padding: 30px 50px 27px 61px;
 }
 
 .page-footer-container {
@@ -828,10 +827,11 @@ body {
 .background-catalog {
   background-image: url("../images/catalog-background.jpg");
   background-color: #6c5c54;
-  background-size: auto;
+  background-size: cover;
   position: inherit;
-  padding-top: 21px;
-  padding-bottom: 52px;
+  padding-top: 42px;
+  padding-bottom: 37px;
+}
 }
 
 .inner-header {
@@ -842,9 +842,8 @@ body {
 }
 
 .inner-header-title {
-  margin-top: 3px;
+  margin-top: -3px;
   margin-left: 70px;
-  margin-bottom: auto;
   min-width: 528px;
   font-size: 60px;
   font-weight: 700;
@@ -857,18 +856,20 @@ body {
 
 .breadcrumbs {
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 10px;
-  padding-left: 5px;
-  margin: 0;
-  list-style-type: none;
-  color: #ffffff;
-  margin-left: 59px;
-  margin-top: 5px;
+flex-wrap: wrap;
+padding-top: 0;
+padding-left: 0;
+margin: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+list-style-type: none;
+color: #ffffff;
+margin-left: 64px;
+margin-top: -34px;
 }
 
 .breadcrumbs-link {
-  padding: 0 6px;
+  padding: 1px 6px;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -908,11 +909,11 @@ body {
 }
 
 .filter {
-  display: flex;
-  margin-left: 65px;
-  margin-right: 72px;
-  margin-top: 0;
-  justify-content: space-between;
+ display: flex;
+margin-left: 68px;
+margin-right: 58px;
+margin-top: 48px;
+justify-content: space-between;
 }
 
 .catalog-filter {
@@ -920,11 +921,12 @@ body {
 }
 
 .catalog-filter-group {
-  margin-top: 30px;
   padding: 0;
-  border: none;
-  color: #ffffff;
-  margin-right: 67px;
+border: none;
+color: #ffffff;
+margin-right: 69px;
+margin-left: 0px;
+margin-top: -19px;
 }
 
 .catalog-filter-list {
@@ -946,7 +948,8 @@ body {
   font-weight: 700;
   line-height: 26px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 11px;
+  padding-left: 0;
 }
 
 .infrastructure {
@@ -1042,7 +1045,7 @@ body {
 .range-scale {
   position: relative;
   width: 288px;
-  top: 46px;
+  top: 45px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -1176,8 +1179,8 @@ body {
 .button-catalog-filter {
   display: flex;
   flex-direction: column;
-  margin-top: 96px;
-  margin-left: 3px;
+  margin-top: 95px;
+  margin-left: 1px;
 }
 
 .button-use {
@@ -1215,7 +1218,7 @@ body {
 }
 
 .button-catalog {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
@@ -1223,6 +1226,7 @@ body {
   color: #ffffff;
   font-family: "PT Sans", sans-serif;
   cursor: pointer;
+  margin-top: -48px;
 }
 
 .delete {
@@ -1234,8 +1238,8 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  margin-right: 21px;
-  margin-top: 11px;
+  margin-right: 17px;
+  margin-top: 9px;
 }
 
 .delete:focus {
@@ -1256,15 +1260,14 @@ body {
 /*Сортировка*/
 .sorting-container {
   display: flex;
-  min-width: 1057px;
-  margin: 36px 74px 53px 71px;
+  margin: 50px 59px 53px 71px;
   justify-content: space-between;
   align-items: center;
 }
 
 .hotels-found {
   display: block;
-  margin-right: 177px;
+  margin-right: 23px;
   font-size: 30px;
   font-weight: 700;
   line-height: 39px;
@@ -1274,15 +1277,13 @@ body {
 
 .select-control {
   position: relative;
-  height: 50px;
-  min-width: 290px;
-  border: 2px solid #e6e6e6;
+  height: 47px;
+  min-width: 292px;
+  border: 2px solid #E5E5E5;
   border-radius: 4px;
-  padding-left: 13px;
-  padding-right: 45px;
-  padding-top: 11px;
-  padding-bottom: 13px;
-  margin-right: 23px;
+  padding-left: 15px;
+  padding-top: 0px;
+  margin-right: -117px;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
@@ -1291,7 +1292,7 @@ body {
   appearance: none;
   background-image: url(../images/select-image.svg);
   background-repeat: no-repeat;
-  background-position: right 17px center;
+  background-position: right 18px center;
   background-color: #ffffff;
   -webkit-appearance: none;
 }
