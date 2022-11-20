@@ -1711,12 +1711,12 @@ html {
   border-radius: 4px;
 }
 
-.page-footer {
+.page-footer-catalog {
   box-sizing: border-box;
   background-color: #ffffff;
   background-size: cover;
   width: 1200px;
-  padding: 37px 1px 20px 12px;
+  padding: 237px 1px 20px 12px;
 }
 
 .page-footer-container-catalog {
