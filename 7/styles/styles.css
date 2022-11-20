@@ -32,17 +32,16 @@ html {
     box-shadow : 0 0 15px rgb(0, 0, 0, 0.2);
     }
 
-    .visually-hidden {
-      position : absolute;
-      width : 1px;
-      height : 1px;
-      margin : -1px;
-      padding : 0;
-      border : 0;
-      clip : rect(0 0 0 0);
-      overflow : hidden;
-      }
-}
+.visually-hidden {
+   position : absolute;
+   width : 1px;
+   height : 1px;
+   margin : -1px;
+   /*! padding : 0; */
+   border : 0;
+   clip : rect(0 0 0 0);
+   overflow : hidden;
+   }
 
 /*Шапка*/
 .page-header {
@@ -268,7 +267,7 @@ html {
   background-image: url(../images/divider.svg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 55px;
+  height: 57px;
   left: 0;
   right: 0;
   background-size:cover;
@@ -295,7 +294,7 @@ html {
 
 .info-page {
   margin-top: 63px;
-  margin-bottom: 84px;
+  margin-bottom: 87px;
 }
 
 .info-title {
@@ -303,7 +302,7 @@ html {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 36px;
-  margin: 9px;
+  margin: 6px;
 }
 
 .info-description {
@@ -318,7 +317,7 @@ html {
 /*Блок преимуществ*/
 .advantages-list {
   margin: 0;
-  margin-top: ;
+  margin-top: -1px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -372,7 +371,7 @@ html {
 .advantages-title-1::before {
   content: " ";
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.3););
+  background-color: rgba(255, 255, 255, 0.3);
   width: 60px;
   height: 2px;
   bottom: -27px;
@@ -418,7 +417,7 @@ html {
 /*Блок сервиса*/
 .services-list {
   margin: 0;
-  margin-top: ;
+  margin-top: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -469,7 +468,7 @@ html {
 
 .services-description {
   margin-top:-155px ;
-  margin-bottom: ;
+  margin-bottom: 0;
   margin-right: 75px;
   margin-left: 75px;
   color: #333333;
@@ -513,11 +512,11 @@ html {
 
 .button-hotel {
   display: block;
-  padding-top: 8px;
+  padding-top: 7px;
   padding-bottom: 10px;
   margin-left: 412px;
   margin-right: 376px;
-  margin-top: 52px;
+  margin-top: 57px;
   box-sizing: border-box;
   height: 52px;
   width: 376px;
@@ -585,7 +584,7 @@ html {
   width: 452px;
   height: 52px;
   margin-left: 2px;
-  margin-top: 7px;
+  margin-top: 8px;
   border-radius: 4px 0 0 4px;
   border: 3px transparent;
   font-family: "PT Sans", sans-serif;
@@ -615,7 +614,7 @@ html {
   width: 232px;
   height: 52px;
   margin-right: 2px;
-  margin-top: 7px;
+  margin-top: 8px;
   border-radius: 0 4px 4px 0;
   border: 3px transparent;
   background: #83b3d3;
@@ -766,7 +765,6 @@ html {
   padding-top: 11px;
   padding-right: 36px;
   padding-bottom: 15px;
-  padding-right: -2px;
 }
 
 .footer-phone-title:focus {
@@ -1713,6 +1711,19 @@ html {
   border-radius: 4px;
 }
 
+.page-footer {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  background-size: cover;
+  width: 1200px;
+  padding: 37px 1px 20px 12px;
+}
+
+.page-footer-container-catalog {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+}
 
 .info-email-catalog {
   background-image: none;
